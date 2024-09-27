@@ -53,25 +53,14 @@ To help the CEO gain insights on the demand for products across all countries (e
 Country: The countries where the sales occurred.
 Quantity: The total quantity of products sold.
 InvoiceDate (if filtering by specific time periods is necessary).
-Step 2: Create the Map Visualization. Drag the Country Field: In Report view, drag the Country column to the canvas Add Quantity to the Map: Drag the Quantity column into the Size or Values field. This will scale the size of the circles (bubbles) on the map based on the total quantity of products sold in each country. Exclude the United Kingdom: In the Filters pane, drag the Country column into Filters on this visual. Set a filter to exclude the United Kingdom:Choose Advanced filtering.Set the filter to Country does not equal "United Kingdom".Step 3: Customize the Map
-Map Style:
-
-In the Format pane, customize the map's visual style to ensure all regions are clearly visible.
+Step 2: Create the Map Visualization. Drag the Country Field: In Report view, drag the Country column to the canvas Add Quantity to the Map: Drag the Quantity column into the Size or Values field. This will scale the size of the circles (bubbles) on the map based on the total quantity of products sold in each country. Exclude the United Kingdom: In the Filters pane, drag the Country column into Filters on this visual. Set a filter to exclude the United Kingdom:Choose Advanced filtering.Set the filter to Country does not equal "United Kingdom".Step 3: Customize the Map: In the Format pane, customize the map's visual style to ensure all regions are clearly visible.
 You can adjust the bubble size to ensure countries with higher demand stand out more.
-Title: Change the title to "Global Demand for Products (Excluding UK)".
-
-Data Labels:
-
-Enable data labels to display the actual quantity sold for each country.
+Data Labels: Enable data labels to display the actual quantity sold for each country.
 This will help the CEO quickly identify the countries with the highest demand without needing to hover over the map.
-Step 4: Provide a Clear Overview
-Use a flat map view so all the data points are visible in one glance.
-You can add a tooltip or slicer to filter by different product categories or time periods if the CEO wants more granular insights.
+Step 4: Provide a Clear Overview, Use a flat map view so all the data points are visible in one glance.
 Step 5: Analyze the Data for Expansion Opportunities
 The map will visually show the regions with the greatest demand for the company's products.
 The size of the bubbles will correspond to the total quantity sold, making it easy for the CEO to identify areas of high potential for business expansion.
-Step 6: Save Your Work
-Save the Power BI report by going to File > Save As and save it as a .pbix file.
 This map visualization will give the CEO a clear overview of where the highest demand for products lies globally, excluding the United Kingdom, and help in identifying regions for potential business expansion.
 
 <br/>
