@@ -2,7 +2,7 @@
 Empowering Business with Effective Insight 
 Project details steps taken to analyse Let me begin by reviewing and cleaning the dataset based on the following criteria:Ensure that the quantity is not below 1 unit.
 Ensure that the unit price is not below $0. The dataset has been cleaned, with 531,283 rows remaining. We removed any records where the quantity was less than 1 or the unit price was below 0. Once i'm done this, i can import the cleaned data into Power BI to create the required visuals. To create a time series visualization of revenue data for 2011, with monthly granularity in Power BI, follow these steps: Load the cleaned data (as per the previous instructions). Create a New Measure for Revenue. Go to the Data view. Select the table with your imported data. In the top ribbon, click on "New Measure" and create a measure for Revenue by multiplying the Quantity and Unit Price. ilter Data for the Year 2011. Create a new Report page. In the Visualizations pane, drag the InvoiceDate column into the "Filters on this page" area.Set a filter for the InvoiceDate to show only data from 2011: In the filter, choose "Advanced filtering" and select the range from 01/01/2011 to 31/12/2011.
-Create a Bar Chart for the Top 10 Countries by Revenue by Drag your Revenue measure into the Values section, Select Top N and set it to show the Top 10 by Revenue add Quantity Sold.
+Creating visualisation to respond to the CMO and CEO demand
 
 
 
