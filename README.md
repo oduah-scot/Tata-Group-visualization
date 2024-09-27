@@ -38,17 +38,43 @@ This will give the CEO a clear view of the monthly revenue for 2011, allowing th
   <img src="https://i.imgur.com/ubUeQzg.png" height="80%" width="80%" alt="Data analysis steps"/>
 <br />
 <br />
-To create a visual showing the top 10 customers by revenue, with the highest revenue-generating customer at the start and gradually decreasing, we will use a sorted bar chart in Power BI. Here's a step-by-step: Ensure the Revenue Measure is Created. In the Report view, drag the CustomerID column into the Axis section of the visual canvas. Drag the Revenue measure into the Values section. create a bar chart showing revenue by customer.use the Filters pane: Click on the drop-down next to CustomerID in the "Filters on this visual" section. Select Top N and set it to display the Top 10 by Revenue. Drag the Revenue measure into the By Value field. Click Apply filter Ensure the bar chart is sorted in descending order (highest to lowest revenue): Click on the three-dot menu (ellipsis) on the top-right of the chart. Choose Sort by Revenue. Make sure Sort descending is selected to show the highest revenue at the top and gradually decrease.
+Filter Out the United Kingdom In the Report view, drag the Country column into the Filters pane (right-hand side). Under Filters on this visual, select Country.Choose "Advanced filtering" and apply the following filter: Country does not equal "United Kingdom." This will exclude the United Kingdom from the visual. Step 3: Create a Bar Chart for the Top 10 Countries by Revenue Drag Country into the Axis section of the canvas. Drag your Revenue measure into the Values section. create a bar chart. In the Visualizations pane, use the Filters section and apply a Top N filter: Click the drop-down next to Country.Select Top N and set it to show the Top 10 by Revenue.Step 4: Add Quantity Sold, Drag the Quantity field into the Values section alongside Revenue. The chart will now show both Revenue and Quantity Sold for the top 10 countries. Power BI will automatically stack the bars for the two values. Data Labels: Enable data labels for both Revenue and Quantity to display the actual values.
+This chart will give the CMO a clear view of the top 10 countries generating the highest revenue (excluding the UK) while also showing the quantity sold.
  <br/>
 <img src="https://i.imgur.com/7hHfj7d.png" height="80%" width="80%" alt="Data analysis steps"/>
 <br />
-<br />
-Insights are drawn from the cleaned data to design a Visualised powerpoint for presentation.:  <br/>
+To create a visual showing the top 10 customers by revenue, with the highest revenue-generating customer at the start and gradually decreasing, we will use a sorted bar chart in Power BI. Here's a step-by-step: Ensure the Revenue Measure is Created. In the Report view, drag the CustomerID column into the Axis section of the visual canvas. Drag the Revenue measure into the Values section. create a bar chart showing revenue by customer.use the Filters pane: Click on the drop-down next to CustomerID in the "Filters on this visual" section. Select Top N and set it to display the Top 10 by Revenue. Drag the Revenue measure into the By Value field. Click Apply filter Ensure the bar chart is sorted in descending order (highest to lowest revenue): Click on the three-dot menu (ellipsis) on the top-right of the chart. Choose Sort by Revenue. Make sure Sort descending is selected to show the highest revenue at the top and gradually decrease. 
+<br/>
 <img src="https://i.imgur.com/crSyx3J.png" height="80%" width="80%" alt="Data analysis steps"/>
 <br />
 <br />
 
-Insights are drawn from the cleaned data to design a Visualised powerpoint for presentation.:  <br/>
+To help the CEO gain insights on the demand for products across all countries (excluding the United Kingdom), we can create a map visualization in Power BI. This map will show the total quantity of products sold per country, giving a clear view of regions with the highest demand. Here's how to set it up step-by-step to Create the Map Visual for the CEO in Power BI: Step 1: Ensure the Data is Ready. Make sure the data includes the following columns:
+Country: The countries where the sales occurred.
+Quantity: The total quantity of products sold.
+InvoiceDate (if filtering by specific time periods is necessary).
+Step 2: Create the Map Visualization. Drag the Country Field: In Report view, drag the Country column to the canvas Add Quantity to the Map: Drag the Quantity column into the Size or Values field. This will scale the size of the circles (bubbles) on the map based on the total quantity of products sold in each country. Exclude the United Kingdom: In the Filters pane, drag the Country column into Filters on this visual. Set a filter to exclude the United Kingdom:Choose Advanced filtering.Set the filter to Country does not equal "United Kingdom".Step 3: Customize the Map
+Map Style:
+
+In the Format pane, customize the map's visual style to ensure all regions are clearly visible.
+You can adjust the bubble size to ensure countries with higher demand stand out more.
+Title: Change the title to "Global Demand for Products (Excluding UK)".
+
+Data Labels:
+
+Enable data labels to display the actual quantity sold for each country.
+This will help the CEO quickly identify the countries with the highest demand without needing to hover over the map.
+Step 4: Provide a Clear Overview
+Use a flat map view so all the data points are visible in one glance.
+You can add a tooltip or slicer to filter by different product categories or time periods if the CEO wants more granular insights.
+Step 5: Analyze the Data for Expansion Opportunities
+The map will visually show the regions with the greatest demand for the company's products.
+The size of the bubbles will correspond to the total quantity sold, making it easy for the CEO to identify areas of high potential for business expansion.
+Step 6: Save Your Work
+Save the Power BI report by going to File > Save As and save it as a .pbix file.
+This map visualization will give the CEO a clear overview of where the highest demand for products lies globally, excluding the United Kingdom, and help in identifying regions for potential business expansion.
+
+<br/>
 <img src="https://i.imgur.com/lIdXQ0e.png" height="80%" width="80%" alt="Data analysis steps"/>
 <br />
 <br />
